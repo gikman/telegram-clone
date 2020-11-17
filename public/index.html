@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <form id="top" action="room.html">
+            <div id="telegram-texts">
+                <div id="telegram-logo"><img src="image/telegram_logo.png" alt=""></div>
+                <div id="telegram-text">Telegram</div>
+                <div id="telegram-next" type="submit">
+                    <button type="submit" id="nextroom">Next
+                    <img id="telegram-last" src="image/nexticon.png" alt=""></button>
+                </div>
+            </div>       
+            <div id="center">
+                <div id=signin>
+                    Sign in
+                </div>
+                <div id=please>
+                    Please enter your nickname
+                </div>
+                <div class="divhr">
+                    <input type="text" name="username" id="name-input" placeholder="Nickname" autocomplete="off" required>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="bottom">
+        <div class="bottom-text">
+            Welcome to the unofficial Telegram web-client.
+        </div>
+    </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" 
+        integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w==" 
+        crossorigin="anonymous">
+        </script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="room.js"></script>
+</body>
+</html>

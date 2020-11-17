@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web</title>
+    <link rel="stylesheet" href="room.css">
+    
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+            <div class="menu" id="menu">
+                <div class="telegram-text">Telegram</div>
+                <div class="menu-btn" id="menu-btn">
+                    <div class="btn-line"></div>   
+                </div>
+                
+                <div class="menu-list" id="menu-list">
+                    <ul>
+                        <li class="listsame">New group
+                            <img class="listimg1" src="./image/new_group.png" alt="">
+                        </li>
+                        <li class="listsame">Contacts
+                            <img class="listimg2" src="./image/contacts.png" alt="">
+                        </li>
+                        <li class="listsame">Settings
+                            <img class="listimg3" src="./image/settings.png" alt="">
+                        </li>
+                        <li class="listsame">Telegram FAQ
+                            <img class="listimg4" src="./image/faq.png" alt="">
+                        </li>
+                        <li class="listsame">About
+                            <img class="listimg5" src="./image/about.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="search">
+                <div class=middle>
+                    <img class="searchimg" src="./image/search.png" alt="">
+                    <input class=searchinput type="text" placeholder="Search">
+                </div>
+                    
+            </div>
+            <div class="contacts">
+                <div class="contact">
+                    <img class="contactimg" src="./image/pavel.jpg" alt="">
+                    <div class="contactname">Pavel Durov</div>
+                    <div class="contacttime">12:41:23 PM</div>
+                    <div class="contacttext">
+                         Welcome to Telegram
+                    </div>
+                </div>
+                    
+                    
+            </div>
+
+        </div>
+
+
+        <div class="right">
+            <div class="navright">
+                <div class="divider"></div>
+                <div class="nav-right">
+                    <div class="names">
+                        Pavel Durov
+                    </div>
+                    <div class="search-icon">
+                        <img id=rightside src="./image/search_white.png" alt="">
+                    </div>
+                    <div class="more">
+                        <div class="more-btn"><img id="threedot" src="./image/three_dot.png" alt=""></div>
+                        <ul>
+                            <li class=listsame>Select messages</li>
+                            <li class=listsame>Photos</li>
+                            <li class=listsame>Videos</li>
+                            <li class=listsame>Files</li>
+                            <li class=listsame>Audio</li>
+                            <li class=listsame>Shared links</li>
+                            <li class=listsame>Voice messages</li>
+                            <li class=listsame>Video messages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
+            
+
+            <div class="message-container"> 
+                <!-- <div class="message-friend">
+    
+                        <div class="img-main"><img class="message-img" src="./image/pavel.jpg" alt=""></div>
+                        <div class="message-name" >Pavel Durov</div>
+                        <div class="message-time">17 Oct 12:41</div>
+                        <div class="message">
+                            asdfgssssssssshhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                            ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                        </div>
+                        
+                </div> -->
+    
+            </div>
+
+
+
+            <form id="control-chat">
+                <div id="chatinput">
+                    <input id="input2" type="text" name="message" placeholder="Write a message..." size="51" autocomplete="off" required>
+                    <div id="chatinputimg">
+                        <img id="smileimg" src="./image/smile.png" alt="">
+                        <img id="inputpavel" src="./image/pavel.jpg" alt="">
+                        <img id="inputsticker"  src="./image/sticker.png" alt="">
+                    </div>    
+                </div>
+                <div id="moreimages">
+                    <img id="documentimg"  src="./image/document.png" alt="">
+                    <img id="photoimg"  src="./image/photo.png" alt="">
+                    <img id="audio_grayimg"  src="./image/audio_gray.png" alt="">
+                </div>
+    
+                <div id="emojiimages">
+                    <img id="emoji1"  src="./image/tears_of_joy_emoji.png" alt="">
+                    <img id="emoji2"  src="./image/blow_kiss_emoji.png" alt="">
+                    <img id="emoji3"  src="./image/sunglasses_emoji.png" alt="">
+                    <img id="emoji4"  src="./image/heart_eyes_emoji.png" alt="">
+                    <img id="emoji5"  src="./image/shyly _smiling_emoji.png" alt="">
+                    <img id="emoji6"  src="./image/grinning_emoji.png" alt="">
+                    <img id="emoji7"  src="./image/thumbs_up_emoji.png" alt="">
+                </div>
+
+                <div id="sendbtn">
+                    <button type="submit" class="send-btn">
+                        SEND
+                    </button>
+                </div>
+            </form>
+
+
+        </div>
+        
+    </div>
+
+
+    <div id="empty"></div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" 
+    integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w==" 
+    crossorigin="anonymous">
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/room.js"></script>
+</body>
+</html>
